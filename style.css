@@ -68,7 +68,7 @@ h1 {
   align-items: center;
 }
 
-a:hover {
+a:hover, a:focus {
     color: hsl(0, 0%, 100%)
 }
 
