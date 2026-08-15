@@ -72,7 +72,7 @@ a:hover, a:focus {
     color: hsl(0, 0%, 100%)
 }
 
-@media (min-width: 450px) and (max-width: 1920px) {
+@media (min-width: 450px) {
 
   .blog-card {
     width: 25em;
