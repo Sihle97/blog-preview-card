@@ -107,7 +107,8 @@ a:hover, a:focus {
 
   .blog-card {
     width: 22em;
-    /* min-width: min(100%, 15em); */
+    min-width: min(100%, 22em);
+    max-width: 100%;
     height: auto;
   }
 
