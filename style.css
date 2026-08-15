@@ -68,6 +68,10 @@ h1 {
   align-items: center;
 }
 
+a:hover {
+    color: hsl(0, 0%, 100%)
+}
+
 @media (min-width: 450px) and (max-width: 1920px) {
 
   .blog-card {
