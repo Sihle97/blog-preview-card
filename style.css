@@ -83,12 +83,12 @@ a:hover, a:focus {
 
   .blog-card {
     width: 25em;
-    height: 34em;
+    height: auto;
   }
 
   .image-avatar {
     width: 22em;
-    height: 15em;
+    height: auto;
 
     margin-top: 1em;
   }  
