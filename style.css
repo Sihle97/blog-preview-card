@@ -20,6 +20,13 @@ body {
     row-gap: 1em;
   }
 
+.blog-card {
+    background-color: hsl(0, 0%, 100%);
+    border: .1em solid hsl(0, 0%, 7%);
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em hsl(0, 0%, 7%);
+  }
+
 p {
   width: 20em;
 }
@@ -77,11 +84,6 @@ a:hover, a:focus {
   .blog-card {
     width: 25em;
     height: 34em;
-
-    background-color: hsl(0, 0%, 100%);
-    border: .1em solid hsl(0, 0%, 7%);
-    border-radius: 1em;
-    box-shadow: 0.5em 0.5em hsl(0, 0%, 7%);
   }
 
   .image-avatar {
@@ -97,14 +99,6 @@ a:hover, a:focus {
   .blog-card {
     min-width: 15em;
     height: 34em;
-    
-    /* Smoothly animates width changes over 0.4 seconds */
-    transition: width 0.4s ease-in-out; 
-
-    background-color: hsl(0, 0%, 100%);
-    border: .1em solid hsl(0, 0%, 7%);
-    border-radius: 1em;
-    box-shadow: 0.5em 0.5em hsl(0, 0%, 7%);
   }
 
   .image-avatar {
