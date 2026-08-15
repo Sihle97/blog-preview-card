@@ -11,6 +11,9 @@ body {
 }
 
 @media (min-width: 450px) and (max-width: 1920px) {
+  body {
+    font-family: "Figtree", sans-serif;
+  }
 
   .blog-card {
     width: 25em;
@@ -27,6 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    row-gap: 1em;
   }
 
   .image-avatar {
@@ -37,7 +41,7 @@ body {
   }
 
   h1 {
-    margin-left: 0.7em;
+    margin-left: 1em;
     font-size: 1.5em;
     /* width: 13em; */
   }
