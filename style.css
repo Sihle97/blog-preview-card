@@ -28,7 +28,7 @@ body {
   }
 
 p {
-  width: 20em;
+  width: min(20em, 100%);
 }
 
 .card-text {
