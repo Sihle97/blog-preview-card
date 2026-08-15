@@ -106,15 +106,13 @@ a:hover, a:focus {
 @media (max-width: 449px) {
 
   .blog-card {
-    width: 22em;
-    min-width: min(100%, 22em);
+    width: min(100%, 22em);
     max-width: 100%;
     height: auto;
   }
 
   .image-avatar {
-    width: 20em;
-    min-width: min(100%, 18em);
+    width: min(100%, 20em);
     height: auto;
 
     margin-top: 0.5em;
