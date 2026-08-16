@@ -35,7 +35,7 @@ p {
   color: hsl(0, 0%, 42%);
 }
 
-h1 {
+h2 {
   font-size: 1.5em;
 }
 
@@ -91,10 +91,10 @@ a:hover, a:focus {
   }
 
   .learning-header {
-    margin-left: 1em;
+    margin-left: 0.7em;
   }
 
-  h1 {
+  h2 {
     margin-left: 1em;
   }
 
@@ -126,7 +126,7 @@ a:hover, a:focus {
     margin-left: .5em;
   }
 
-  h1 {
+  h2 {
     margin-left: .5em;
   }
 
