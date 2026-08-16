@@ -4,6 +4,8 @@
   --purple-color: hsl(228, 45%, 44%);
   --black-color: hsl(0, 0%, 7%);
   --gray-color: hsl(0, 0%, 42%);
+
+  --margin-onset: 1em;
 }
 
 .attribution {
@@ -78,7 +80,22 @@ a:hover, a:focus {
     color: var(--white-color);
 }
 
+.card-margin {
+  margin-left: calc(var(--margin-onset) + 0.5em); 
+}
 
+.learning-header {
+  margin-left: calc(var(--margin-onset) +  0.5em); 
+  font-size: 1em;
+}
+
+h2 {
+  margin-left: var(--margin-onset); 
+}
+
+.user-image {
+  margin-left: calc(var(--margin-onset) + 0.5em);
+}
 
 @media (min-width: 450px) {
 
@@ -93,25 +110,14 @@ a:hover, a:focus {
 
     margin-top: 1em;
   }  
-
-  .card-margin {
-    margin-left: 1.5em;
-  }
-
-  .learning-header {
-    margin-left: 0.7em;
-  }
-
-  h2 {
-    margin-left: 1em;
-  }
-
-  .user-image {
-    margin-left: 1.5em;
-  }
+  
 }
 
 @media (max-width: 449px) {
+
+  :root {
+    --margin-onset: 0.5em;
+  }
 
   .blog-card {
     width: min(100%, 22em);
@@ -125,7 +131,7 @@ a:hover, a:focus {
     margin-top: 0.5em;
   }
 
-  .card-margin {
+  /* .card-margin {
     margin-left: .8em;
   }
 
@@ -139,7 +145,7 @@ a:hover, a:focus {
 
   .user-image {
     margin-left: 1em;
-  }
+  } */
 }
 
       
