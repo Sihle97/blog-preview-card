@@ -1,13 +1,21 @@
+:root {
+  --yellow-color: hsl(47, 88%, 63%);
+  --white-color: hsl(0, 0%, 100%);
+  --purple-color: hsl(228, 45%, 44%);
+  --black-color: hsl(0, 0%, 7%);
+  --gray-color: hsl(0, 0%, 42%);
+}
+
 .attribution {
         font-size: 0.6875rem;
         text-align: center;
 }
 .attribution a {
-        color: hsl(228, 45%, 44%);
+        color: var(--purple-color);
 }
 
 body {
-  background-color: hsl(47, 88%, 63%);
+  background-color: var(--yellow-color);
   height: 100vh;
   font-family: "Figtree", sans-serif;
 }
@@ -21,10 +29,10 @@ body {
   }
 
 .blog-card {
-    background-color: hsl(0, 0%, 100%);
-    border: .1em solid hsl(0, 0%, 7%);
+    background-color: var(--white-color);
+    border: .1em solid var(--black-color);
     border-radius: 1em;
-    box-shadow: 0.5em 0.5em hsl(0, 0%, 7%);
+    box-shadow: 0.5em 0.5em var(--black-color);
   }
 
 p {
@@ -32,7 +40,7 @@ p {
 }
 
 .card-text {
-  color: hsl(0, 0%, 42%);
+  color: var(--gray-color);
 }
 
 h2 {
@@ -41,7 +49,7 @@ h2 {
 
 .learning-header {
   width: 4.5em;
-  background-color: hsl(47, 88%, 63%);
+  background-color: var(--yellow-color);
 
   text-align: center;
   border-radius: 0.2em;
@@ -67,7 +75,7 @@ h2 {
 }
 
 a:hover, a:focus {
-    color: hsl(0, 0%, 100%);
+    color: var(--white-color);
 }
 
 
