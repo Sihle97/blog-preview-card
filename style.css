@@ -67,7 +67,7 @@ h2 {
 }
 
 a:hover, a:focus {
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
 }
 
 
@@ -107,7 +107,6 @@ a:hover, a:focus {
 
   .blog-card {
     width: min(100%, 22em);
-    max-width: 100%;
     height: auto;
   }
 
